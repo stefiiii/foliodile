@@ -1,0 +1,149 @@
+@charset "utf-8";
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#544f3a;
+	margin-top:15px;
+	line-height:15px;
+}
+h2{
+	background:#c2bda8;
+	color:#0d0b06;
+	font-family:'blue_highwaybold';
+	font-size:28px;
+	text-transform:uppercase;
+	height:55px;
+	font-weight:lighter;
+	line-height:55px;
+	text-indent:15px;
+}
+ h3{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight:lighter;
+	margin:0;
+	padding:0;
+}
+.contact{
+	background:#FFF;
+	width:auto;
+	min-height:580px;
+	margin-top:15px;
+}
+.block{
+	width:310px;
+	height:auto;
+	float:left;
+	margin-left:40px;
+	margin-top:20px;
+	padding-left:15px;
+	text-align:justify;
+}
+.block p{
+	border-top:1px solid #c2bda8;
+	padding-top:15px;
+}
+#links{
+	width:225px;
+}
+#links ul{
+	width:auto;
+	height:auto;
+	margin-top:20px;
+}
+#links ul li{
+	background:url(../images/list-style-type.png) left no-repeat;
+	list-style-type: none;
+	padding-left:17px;
+	width:auto;
+	height:20px;
+	line-height:20px;
+}
+#links ul li a{
+	color:#8e874e;
+}
+.details span{
+	text-transform:none;
+}
+.block .details{
+	margin-top:15px;
+	width:auto;
+	height:auto;
+}
+.block .details li{
+	list-style-type:none;
+	text-transform:uppercase;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	color:#2c291d;
+	line-height:18px;
+	font-weight:bold;
+}
+#card{
+	background:url(../images/business-card.png) no-repeat;
+	width:308px;
+	height:110px;
+	margin-top:20px;
+}
+#left, #right{
+	float:left;
+	margin-top:20px;
+}
+#left{
+	margin-left:115px;
+	
+}
+#right{
+	margin-left:15px;
+}
+#right li{
+	color:#544f3a;
+	text-transform:none;
+	font-weight:normal;
+}
+#form{
+	width:65px;
+	height:auto;
+	float:left;
+}
+#form li{
+	height:23px;
+	line-height:23px;
+}
+#text-fields{
+	float:left;
+	margin-top:15px;
+	margin-left:10px;
+	list-style-type:none;
+}
+.textfield{
+	background:url(../images/form-line.png) no-repeat bottom left;
+	width:230px;
+	height:20px;
+	border:none;
+}
+#message{
+	width:230px;
+	height:145px;
+	background:url(../images/form-bg.png) no-repeat;
+	border:none;
+	margin-top:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+}
+#send{
+	display:block;
+	background:#9c9456;
+	width:230px;
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	font-family:'blue_highwaybold';
+	text-decoration:none;
+	color:#484211;
+	text-transform:uppercase;
+	text-align:center;
+	border-radius:5px;
+	margin-left:75px;
+	margin-top:8px;
+}

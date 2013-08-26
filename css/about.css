@@ -1,0 +1,153 @@
+@charset "utf-8";
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#544f3a;
+	margin-top:15px;
+	line-height:15px;
+}
+h2{
+	background:#c2bda8;
+	color:#0d0b06;
+	font-family:'blue_highwaybold';
+	font-size:28px;
+	text-transform:uppercase;
+	height:55px;
+	font-weight:lighter;
+	line-height:55px;
+	text-indent:15px;
+}
+#who h2{
+	background:none;
+}
+/*left*/
+.left{
+	width:693px;
+	min-height:870px;
+	float:left;
+}
+.block{
+	background:#fff;
+	width:auto;
+	margin-top:15px;
+	min-height:325px;
+}
+.left img{
+	float:left;
+	margin-top:15px;
+}
+.left .block:first-child{
+	border-bottom:1px solid#c2bda8;
+}
+.column{
+	width:320px;
+	height:auto;
+	float:left;
+	text-align:justify;
+	padding-left:15px;
+	margin-left:5px;
+}
+#link{
+	display:block;
+	width:140px;
+	margin-top:20px;
+}
+.column a{
+	color:#8e874e;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+.column h3{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight:lighter;
+	margin:0;
+	padding:0;
+}
+.small{
+	padding-top:0;
+	margin-top:15px;
+}
+.small ul{
+	margin-top:25px;
+	width:320px;
+	height:auto;
+	padding-bottom:25px;
+	border-bottom:1px solid #c2bda8;
+}
+.small ul li, .box ul li{
+	background:url(../images/list-style-type.png) left no-repeat;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#544f3a;
+	line-height:18px;
+	list-style-type:none;
+	padding-left:14px;
+}
+.big{
+	width:660px;
+	height:auto;
+}
+#email{
+	background:#9c9456;
+	display:block;
+	border-radius:5px;
+	height:30px;
+	line-height:30px;
+	text-decoration:none;
+	width:145px;
+	text-align:center;
+	color:#282511;
+	font-size:14px;
+	text-transform:uppercase;
+	font-family:'blue_highwaybold';
+	margin-top:20px;
+}
+/*right*/
+.right{
+	background:url(../images/box-footer.png) no-repeat bottom;
+	width:282px;
+	height:auto;
+	float:left;
+	margin-left:10px;
+	padding-bottom:77px;
+}
+.box{
+	background:#efedd9;
+	min-height:200px;
+}
+.box p{
+	margin-left:15px;
+	width:250px;
+	height:auto;
+	text-align:justify;
+}
+#contact{
+	background:#9c9456;
+	display:block;
+	width:85px;
+	height:30px;
+	line-height:30px;
+	margin-top:15px;
+	margin-left:18px;
+	text-decoration:none;
+	font-size:12px;
+	font-family:'blue_highwaybold';
+	font-weight:lighter;
+	border-radius:5px;
+	text-align:center;
+	color:#282511;
+	text-transform:uppercase;
+}
+.box:first-child{
+	margin-top:15px;
+}
+.box ul{
+	width:auto;
+	height:auto;
+	padding:20px 15px;
+}
+.box ul li a{
+	color:#544f3a;
+	text-decoration:none;
+}
